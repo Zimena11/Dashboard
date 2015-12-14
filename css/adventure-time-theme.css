@@ -179,7 +179,7 @@ ul.sidebar-menu li a.active {
 }
 
 ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #E26EAB;
+    background: #E26EAB;/*color fucssia menu lateral*/
     color: white;
 }
 
@@ -895,7 +895,7 @@ label {
     transition: 0.25s ease-out;
     -webkit-backface-visibility: hidden;
 }
-.switch-square {
+.switch-square {                    
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -webkit-mask: url('../img/mask.png') 0 0 no-repeat;
@@ -1112,4 +1112,22 @@ label {
 .box0:hover {
     background: #ffffff;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+/*----------------- Estilos personalizados */
+#topbar
+{
+    background: #424a5d;
+    height: 50px;
+}
+#topbar a
+{
+    color:#FFFFFF;
+    font-size: 16px;
+}
+#sidebar img {
+    width:80px;
+    height:80px;
+}
+.contenido{
+    margin:15px;
 }

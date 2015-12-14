@@ -13,40 +13,89 @@
     <link href="css/font-awesome.css" rel="stylesheet" />
     <link href="css/adventure-time-theme.css" rel="stylesheet">
     <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
-
   <body>
-  <div class="menu-principal">
-    <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span> 
-        </button>
-        <a class="navbar-brand" href="#">ADVENTURE TIME:DASHBOARD</a>
+    <div id="container">
+      <div id="topbar">
+        <div class="top-menu">
+          <a href="#menu" class="fa fa-bars logo">
+          <span class="hidden-xs">AVENTURE TIME: DASHBOARD</span>
+          <span class="hidden-lg visible-xs">ADV. TIME</span></a>
+          <ul class="nav pull-right top-menu">
+            <li><a href="login.html" class="logout">Logout</a></li>
+          </ul>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-left">
-          <li><a href="#Dashboard">Dashboard</a></li>
-          <li><span class=""></span><a href="#Buttons">Buttons</a></li>
-          <li><span class=""></span><a href="#">Progress Bars</a></li>
-          <li><span class=""></span><a href="#Forms">Forms</a></li>
-          <li><span class=""></span><a href="#Data-Tables">Data Tables</a></li>
-          <li><span class=""></span><a href="#Gallery">Gallery</a></li>
-          <li><span class=""></span><a href="#Login-Page">Login Page</a></li>
-        </ul>
+      </div>
+      <div id="sidebar">
+      <ul class="sidebar-menu">
+        <div class="text-center"><img src="img/profile_avatar.png" alt="" class="img-circle1"></div>
+        <h5 class="text-center">Bonnible Bubblegum</h5>
+          <li><a href=""><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a href=""><i class="fa fa-desktop"></i> Buttons</a></li>
+          <li><a href=""><i class="fa fa-desktop"></i> Progress Bar</a></li>
+          <li><a href=""><i class="fa fa-cogs"></i> Forms</a></li>
+          <li><a href=""><i class="fa fa-th"></i> Data Tables</a></li>
+          <li><a href=""><i class="fa fa-th"></i> Gallery</a></li>
+          <li><a href=""><i class="fa fa-th"></i>Login Page </a></li>
+      </ul>
+      </div>
+      <div id="main-content">
+        <div class="row wrapper site-min-height">
+          <div class="col-sm-9 main-chart ">
+            <div class="col-sm-2 col-md-offset-1 text-center"><div class="box1"><span class="fa fa-heart"></span><h3>933</h3></div></div>
+            <div class="col-sm-2 "><div class="box1 text-center"><span class="fa fa-cloud"></span><h3>+48</h3></div></div>
+            <div class="col-sm-2 "><div class="box1 text-center"><span class="fa fa-envelope"></span><h3>23</h3></div></div>
+            <div class="col-sm-2 "><div class="box1 text-center"><span class="fa fa-slack"></span><h3>+10</h3></div></div>
+            <div class="col-sm-2 "><div class="box1 text-center"><span class="fa fa-database"></span><h3>OK!</h3></div></div>
+            <div class="col-sm-12"><h2 class="pull-left">Mis favoritos</h2>
+            </div>
+            <div class="col-sm-7">
+            <div class="video-responsive">
+             <iframe width="450" height="300" src="https://www.youtube.com/embed/gBL640KFgVI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            </div>
+            <div class="col-sm-5">
+              <h4>Adventure time Season 1 Episode 1</h4>
+              <p class="text-justify">A human boy named Finn and adoptive brother and best friend Jake the Dog, protect the citizens if the land of Ooo from foes of various shapes and sizes.</p>
+              <a href="#"><i class=" fa fa-plus "><span>Agregar</span></i></a>
+              <a href="#"><i class=" fa fa-share-alt ml"><span> Compartir</span></i></a>
+            </div>
+            <div class="col-sm-12 showback">
+              <div class="row">
+                <h4>Videos populares</h4>
+                <div class="col-sm-4"><div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/eP-xfDx9oBA" frameborder="0" allowfullscreen></iframe></div></div>
+                <div class="col-sm-4"><div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/w-e3KUcP4E0" frameborder="0" allowfullscreen></iframe></div></div>
+                <div class="col-sm-4"><div class="video-responsive"><iframe width="420" height="315" src="https://www.youtube.com/embed/Mp4ZPMbNeyc" frameborder="0" allowfullscreen></iframe></div></div>
+              </div>
+            </div><br/><br/>
+             <div class="col-sm-12 showback">
+              <div class="row">
+                <h4>Temporada 1</h4>
+                <div class="col-sm-4"><div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/sJvnGtT3KFI" frameborder="0" allowfullscreen></iframe></div></div>
+                <div class="col-sm-4"><div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/Fin19QCG_HY" frameborder="0" allowfullscreen></iframe></div></div>
+                <div class="col-sm-4"><div class="video-responsive"><iframe width="420" height="315" src="https://www.youtube.com/embed/Mp4ZPMbNeyc" frameborder="0" allowfullscreen></iframe></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="text-center ds">
+              <h3 class="ds">CANDY KINGDOM NEWS</h3>
+            <div class="media">
+              <div class="media-left media-top">
+                <i class="fa fa-clock-o label-theme"></i>
+              </div>
+              <div class="media-body">
+                <p><small>2 minutes ago</small><a href="James Brow">James Brow</a>subscribed to your newsletter</p>
+              </div>
+            </div>
+            </div>
+            <div class="text-center ds">
+            <h3>CANDY PEOPLE</h3>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
-    </nav>
-</div>
   
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
