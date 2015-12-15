@@ -1,3 +1,8 @@
+*{
+    outline: 1px solid red;
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
 body { 
@@ -746,6 +751,7 @@ PANELS CONFIGURATIONS
 label {
     font-weight: 400;
 }
+/*login*/
 
 .form-horizontal.style-form .form-group {
     border-bottom: 1px solid #eff2f7;
@@ -1131,7 +1137,14 @@ label {
 .contenido{
     margin:15px;
 }
-/*.video-responsive iframe{
-    width:250px;
-    margin:15px;
-}*/
+.form-group{
+    margin:0;
+}
+button.btn{
+    background:#797979;
+    background-color:#ccc;
+    border:1px solid #ccc;
+    width:100%;
+    border-radius: 4px;
+    color:#555;
+}
